@@ -1,6 +1,8 @@
 import Image from "next/image";
 import Hero from "../components/Hero";
+import HighlightsSection from "../components/HighlightsSection";
 import Navbar from "../components/Navbar";
+import { highlights } from "../helpers/data";
 
 const index = () => {
   return (
@@ -9,19 +11,7 @@ const index = () => {
       <Hero />
       <section className="bg-primary">
         <div className="container py-12 mx-auto space-y-12 text-white">
-          <h2 className="text-3xl font-bold">Experiencia</h2>
-          <div className="space-y-4">
-            <p className="text-3xl font-bold">11 años</p>
-            <p>Creando soluciones en los sectores público y privado</p>
-          </div>
-          <div className="space-y-4">
-            <p className="text-3xl font-bold">+12 proyectos</p>
-            <p>Trabajados en armonía con nuestros clientes</p>
-          </div>
-          <div className="space-y-4">
-            <p className="text-3xl font-bold">+230,000 horas</p>
-            <p>Dedicadas a realizar obras de calidad</p>
-          </div>
+          <HighlightsSection content={highlights} />
         </div>
       </section>
       <section className="bg-white">

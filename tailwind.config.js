@@ -6,15 +6,14 @@ module.exports = {
   theme: {
     extend: {},
     colors: {
-      primary: "#E4B363",
-      secondary: "#FFE0AD",
-      black: "#000000",
+      arena: "#E4B363",
+      dark: "#1E252F",
       gray: {
-        dark: "#121212",
-        DEFAULT: "#8A8A8A",
-        light: "#CCCCCC",
+        dark: "#787C82",
+        DEFAULT: "#BCBEC1",
+        light: "#F4F4F5",
       },
-      white: "#FFFFFF",
+      light: "#FFFFFF",
       success: "#E8FFA8",
       danger: "#F64949",
     },
@@ -36,5 +35,4 @@ module.exports = {
       sm: ["0.75rem", "1.125rem"],
     },
   },
-  plugins: [],
 };

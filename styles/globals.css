@@ -1,3 +1,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+/* Va dentro de este layer para que solo incluya aquellas clases que han sido usadas al momento de compilar el CSS. */
+@layer base {
+ h1, h2, h3, h4{
+   @apply text-3xl font-bold;
+ }
+
+ h5, h6{
+    @apply text-2xl font-bold;
+  }
+}
