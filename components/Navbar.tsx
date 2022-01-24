@@ -9,15 +9,15 @@ const menuLinks = [
 
 const Navbar = () => {
   return (
-    <div className="fixed top-0 z-10 w-full bg-white">
-      <div className="container flex items-center justify-between mx-auto">
+    <div className="fixed top-0 z-10 w-full py-2 bg-white">
+      <div className="container flex items-center justify-center mx-auto md:justify-between">
         <Image
           src={`/logos/grupo-construramex-horizontal.svg`}
           width={231}
           height={61}
           alt={`Grupo Construramex Logo`}
         />
-        <menu className="flex space-x-6 tracking-wide text-light">
+        <menu className="hidden space-x-6 tracking-wide md:flex text-light">
           {menuLinks.map((link) => (
             <li key={link.name}>
               <Link href={link.href}>

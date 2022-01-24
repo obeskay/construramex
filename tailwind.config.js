@@ -34,5 +34,11 @@ module.exports = {
       base: ["1rem", "1.5rem"],
       sm: ["0.75rem", "1.125rem"],
     },
+    transitionDuration: {
+      DEFAULT: "0.75s",
+    },
+    transitionTimingFunction: {
+      DEFAULT: "cubic-bezier(0.16, 1, 0.3, 1)",
+    },
   },
 };

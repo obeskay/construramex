@@ -1,6 +1,6 @@
 const HighlightsSection = ({ content }) => {
   return (
-    <div className="grid grid-cols-3 gap-12">
+    <div className="grid gap-12 md:grid-cols-3">
       {content.map((item, index) => (
         <HighlightItem
           title={item.title}
@@ -14,7 +14,7 @@ const HighlightsSection = ({ content }) => {
 
 const HighlightItem = ({ title, description }) => {
   return (
-    <div className="flex flex-col items-center justify-center h-full space-y-4 text-center">
+    <div className="flex flex-col justify-center h-full space-y-4 text-left md:items-center md:text-center">
       <h2>{title}</h2>
       <p className="text-xl">{description}</p>
     </div>
