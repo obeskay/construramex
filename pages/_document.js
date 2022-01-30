@@ -8,7 +8,7 @@ class MyDocument extends Document {
 
   render() {
     return (
-      <Html className="overflow-x-hidden bg-light text-gray-dark">
+      <Html className="text-gray-dark bg-light">
         <Head>
           <link rel="preconnect" href="https://fonts.googleapis.com" />
           <link rel="preconnect" href="https://fonts.gstatic.com" />
@@ -17,7 +17,7 @@ class MyDocument extends Document {
             rel="stylesheet"
           />
         </Head>
-        <body>
+        <body className="overflow-x-hidden max-w-screen">
           <Main />
           <NextScript />
         </body>

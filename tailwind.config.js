@@ -1,3 +1,4 @@
+const colors = require("tailwindcss/colors");
 module.exports = {
   content: [
     "./pages/**/*.{js,ts,jsx,tsx}",
@@ -16,6 +17,9 @@ module.exports = {
       light: "#FFFFFF",
       success: "#E8FFA8",
       danger: "#F64949",
+      transparent: "transparent",
+      current: "currentColor",
+      base: colors.gray["dark"],
     },
     fontFamily: {
       sans: ["Roboto", "sans-serif"],
@@ -25,6 +29,9 @@ module.exports = {
         DEFAULT: "1rem",
         "2xl": "6rem",
       },
+    },
+    boxShadow: {
+      DEFAULT: `0 4px 32px 0 rgba(0,0,0,0.1)`,
     },
     fontSize: {
       "3xl": ["2.5rem", "3.125rem"],
