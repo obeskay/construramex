@@ -20,7 +20,7 @@ const Hero = () => {
             <br />
             <span className=" md:text-dark">juntos el futuro</span>
           </h1>
-          <Button>Ver más</Button>
+          <Button className="bg-arena">Ver más</Button>
         </div>
       </div>
       <Wave className="absolute bottom-[4%] -translate-x-1/2 w-[200vw] md:w-[105vw] left-[50vw] fill-arena" />

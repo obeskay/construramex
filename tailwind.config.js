@@ -34,8 +34,8 @@ module.exports = {
       DEFAULT: `0 4px 32px 0 rgba(0,0,0,0.1)`,
     },
     fontSize: {
-      "3xl": ["2.5rem", "3.125rem"],
-      "2xl": ["1.5rem", "1.875rem"],
+      "3xl": ["2.5rem", "2.5rem"],
+      "2xl": ["1.8rem", "1.8rem"],
       xl: ["1.25rem", "1.875rem"],
       lg: ["1.125rem", "1.6875rem"],
       base: ["1rem", "1.5rem"],

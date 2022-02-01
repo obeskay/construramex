@@ -14,7 +14,7 @@
   }
 
   .btn {
-    @apply px-6 py-4 font-bold bg-arena text-light;
+    @apply px-6 py-4 font-bold text-light;
   }
 }
 
