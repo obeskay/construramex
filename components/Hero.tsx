@@ -5,7 +5,7 @@ import Wave from "./Wave";
 const Hero = () => {
   return (
     <div className="relative">
-      <div className="relative h-[80vh] md:h-[65vh] [mask-image:url(/masks/heroMask.svg)] [mask-size:200vw] md:[mask-size:105vw] [mask-position:bottom]">
+      <div className="relative h-[80vh] [mask-image:url(/masks/heroMask.svg)] [mask-size:200vw] md:[mask-size:105vw] [mask-position:bottom]">
         <div className="absolute right-0 w-full md:max-w-[50vw] h-full -z-10">
           <Image
             src={`/projects/project5.jpg`}
@@ -20,7 +20,7 @@ const Hero = () => {
             <br />
             <span className=" md:text-dark">juntos el futuro</span>
           </h1>
-          <Button className="bg-arena">Ver más</Button>
+          <Button variant={"outline-light md:outline-dark"}>Ver más</Button>
         </div>
       </div>
       <Wave className="absolute bottom-[4%] -translate-x-1/2 w-[200vw] md:w-[105vw] left-[50vw] fill-arena" />

@@ -38,7 +38,7 @@ const Navbar = () => {
           />
         </div>
         <menu
-          className={`hidden space-x-6 tracking-wide md:flex transition-colors ${
+          className={`hidden space-x-6 tracking-wide md:flex transition-colors uppercase font-bold ${
             userScroll ? "text-dark" : "text-light"
           }`}
         >

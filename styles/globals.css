@@ -6,16 +6,21 @@
 /* Dentro de este layer para que se incluya a los estilos base */
 @layer base {
   h1, h2, h3, h4 {
-    @apply text-2xl font-bold md:text-3xl;
+    @apply text-2xl font-bold uppercase md:text-3xl;
   }
 
-  h5, h6 {
-    @apply text-xl font-bold md:text-2xl;
+  h5 {
+    @apply text-xl font-bold tracking-wide uppercase md:text-2xl;
+  }
+
+  h6 {
+    @apply text-lg font-bold tracking-wide uppercase md:text-xl;
   }
 
   .btn {
-    @apply px-6 py-4 font-bold text-light;
+    @apply relative px-6 py-3 font-bold tracking-wide uppercase text-light;
   }
+  
 }
 
 /* Dentro de este layer para que solo incluya aquellas clases que han sido usadas al momento de compilar el CSS. */

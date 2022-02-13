@@ -42,10 +42,18 @@ module.exports = {
       sm: ["0.75rem", "1.125rem"],
     },
     transitionDuration: {
-      DEFAULT: "0.75s",
+      DEFAULT: "0.4s",
+    },
+    letterSpacing: {
+      DEFAULT: "0",
+      wide: "0.25rem",
+    },
+    borderRadius: {
+      DEFAULT: "0",
+      full: "50%",
     },
     transitionTimingFunction: {
-      DEFAULT: "cubic-bezier(0.16, 1, 0.3, 1)",
+      DEFAULT: "cubic-bezier(.2,.97,.68,.99)",
     },
   },
 };
